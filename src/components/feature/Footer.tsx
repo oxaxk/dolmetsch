@@ -54,7 +54,6 @@ export default function Footer() {
               <li><a href="/kontakt" className="text-slate-400 hover:text-sky-300 transition-colors">Kontakt</a></li>
               <li><a href="/impressum" className="text-slate-400 hover:text-sky-300 transition-colors">Impressum</a></li>
               <li><a href="/datenschutz" className="text-slate-400 hover:text-sky-300 transition-colors">Datenschutz</a></li>
-              <li><a href="/agb" className="text-slate-400 hover:text-sky-300 transition-colors">AGB</a></li>
             </ul>
           </div>
 
