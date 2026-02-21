@@ -6,7 +6,6 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   size?: 'sm' | 'md' | 'lg';
   className?: string;
   href?: string;
-  gaSendTo?: string;
 }
 
 export default function Button({ 
@@ -15,7 +14,6 @@ export default function Button({
   size = 'md', 
   className = '',
   href,
-  gaSendTo,
   ...rest
 }: ButtonProps) {
   const baseClasses = 'inline-flex items-center justify-center font-medium tracking-wide transition-all duration-300 cursor-pointer whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-full';
@@ -38,18 +36,14 @@ export default function Button({
   const classes = `${baseClasses} ${variants[variant]} ${sizes[size]} ${className}`;
   
   if (href) {
+    const isExternal = href.startsWith('http');
+
     return (
       <a
         href={href}
         className={classes}
-        target="_blank"
-        rel="noopener noreferrer"
+        {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
         onClick={(e) => {
-          if (gaSendTo && typeof window !== 'undefined' && typeof (window as any).gtag === 'function') {
-            (window as any).gtag('event', 'conversion', {
-              send_to: gaSendTo,
-            });
-          }
           if (rest.onClick) {
             rest.onClick(e as any);
           }
@@ -65,11 +59,6 @@ export default function Button({
       type="button"
       className={classes}
       onClick={(e) => {
-        if (gaSendTo && typeof window !== 'undefined' && typeof (window as any).gtag === 'function') {
-          (window as any).gtag('event', 'conversion', {
-            send_to: gaSendTo,
-          });
-        }
         if (rest.onClick) {
           rest.onClick(e);
         }
