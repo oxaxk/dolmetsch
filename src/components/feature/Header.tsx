@@ -83,9 +83,6 @@ export default function Header() {
   <a href="/datenschutz" className="text-[0.7rem] font-semibold tracking-[0.18em] uppercase text-slate-100/80 hover:text-sky-300 hover:underline underline-offset-4 transition-colors">
     Datenschutz
   </a>
-  <a href="/agb" className="text-[0.7rem] font-semibold tracking-[0.18em] uppercase text-slate-100/80 hover:text-sky-300 hover:underline underline-offset-4 transition-colors">
-    AGB
-  </a>
 </nav>
 
             <button
@@ -171,9 +168,6 @@ export default function Header() {
 </a>
 <a href="/datenschutz" className="text-xs font-semibold tracking-[0.22em] uppercase text-slate-100/90 hover:text-yellow-300 transition-colors" onClick={() => setIsMenuOpen(false)}>
   Datenschutz
-</a>
-<a href="/agb" className="text-xs font-semibold tracking-[0.22em] uppercase text-slate-100/90 hover:text-yellow-300 transition-colors" onClick={() => setIsMenuOpen(false)}>
-  AGB
 </a>
             </div>
           </div>
