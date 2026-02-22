@@ -18,7 +18,7 @@ export default function Impressum() {
             className="prose prose-lg max-w-none"
             style={{ color: '#020617', fontFamily: 'Inter, sans-serif' }}
           >
-            <h2 className="text-2xl font-semibold mb-4">Angaben gemäß § 5 TMG</h2>
+            <h2 className="text-2xl font-semibold mb-4">Angaben gemäß § 5 DDG</h2>
             <p className="mb-4">
               <strong>Jachvadze Dolmetscherdienst</strong><br />
               Giorgi Jachvadze Dolmetscher- und Übersetzungsdienst<br />
@@ -30,10 +30,10 @@ export default function Impressum() {
             <p className="mb-4">
               Telefon:{' '}
               <a href="tel:+4915206746382" className="hover:underline">
-                +49 (0) 152 06746382
++49 (0) 152 06746382
               </a>,{' '}
               <a href="tel:+4917643453830" className="hover:underline">
-                +49 (0) 176 43453830
++49 (0) 176 43453830
               </a>
               <br />
               E-Mail:{' '}
@@ -49,7 +49,7 @@ export default function Impressum() {
 
             <h2 className="text-2xl font-semibold mb-4 mt-8">Haftung für Inhalte</h2>
             <p className="mb-4">
-              Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. 
+              Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. 
               Eine permanente inhaltliche Kontrolle der verlinkten Inhalte ist jedoch nicht zumutbar.
             </p>
 
