@@ -92,7 +92,7 @@ export default function Datenschutz() {
             <p className="mb-4">
             Im Falle datenschutzrechtlicher Verstöße steht Ihnen ein Beschwerderecht bei einer
             Datenschutzaufsichtsbehörde zu. Zuständig ist insbesondere die Aufsichtsbehörde
-            des Bundeslandes Berlin.
+            des Bundeslandes Brandenburg.
             </p>
 
             <h2 className="text-2xl font-semibold mb-4 mt-8">4. Datenerfassung auf dieser Website</h2>
@@ -121,11 +121,12 @@ export default function Datenschutz() {
 
             <h2 className="text-2xl font-semibold mb-4 mt-8">5. Cookies</h2>
             <p className="mb-4">
-            Auf dieser Website werden ausschließlich technisch notwendige Cookies verwendet, die für den sicheren und ordnungsgemäßen Betrieb der Website erforderlich sind.
-            Eine Analyse des Nutzerverhaltens, Tracking oder Marketingmaßnahmen finden nicht statt.
+            Auf dieser Website werden keine Cookies zu Analyse-, Marketing- oder Trackingzwecken eingesetzt.
+            Es werden lediglich technisch notwendige Verbindungsdaten durch den Server verarbeitet,
+            um die Website korrekt bereitzustellen.
             </p>
             <p className="mb-4">
-            Sie können die Speicherung von Cookies über die Einstellungen Ihres Browsers jederzeit einschränken oder deaktivieren.
+            Da keine Tracking- oder Analyse-Tools verwendet werden, ist kein Cookie-Banner erforderlich.
             </p>
 
             <h2 className="text-2xl font-semibold mb-4 mt-8">6. Hinweis zu Abmahnungen</h2>
