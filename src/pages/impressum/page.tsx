@@ -42,10 +42,6 @@ export default function Impressum() {
               </a>
             </p>
 
-            <h2 className="text-2xl font-semibold mb-4 mt-8">Zuständige Kammer</h2>
-            <p className="mb-4">
-              Industrie- und Handelskammer Ostbrandenburg
-            </p>
 
             <h2 className="text-2xl font-semibold mb-4 mt-8">Haftung für Inhalte</h2>
             <p className="mb-4">
