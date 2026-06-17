@@ -75,7 +75,7 @@ const AboutPage = () => {
             </h2>
 
             <p className="text-base md:text-lg leading-relaxed text-[#0F172A]/85">
-              Professionalität und Qualität garantieren wir auf hohem Niveau. Unser Team
+              Professionalität und Qualität sind unser Anspruch. Unser Team
               erfahrener Dolmetscher:innen und Übersetzer:innen deckt Ihre sprachlichen
               Bedürfnisse zuverlässig ab – präzise, diskret und termingerecht.
             </p>

@@ -12,7 +12,6 @@ const BewerbungPage = () => {
     plzOrt: "",
     telefon: "",
     email: "",
-    steuerId: "",
     sprachen: "",
     hochschule: "",
     consent: false,
@@ -116,7 +115,6 @@ const BewerbungPage = () => {
               <input name="plzOrt" required placeholder="Postleitzahl / Ort*" value={formData.plzOrt} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-slate-900/10 focus:border-slate-900 transition" />
               <input name="telefon" required placeholder="Telefonnummer*" value={formData.telefon} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-slate-900/10 focus:border-slate-900 transition" />
               <input name="email" required type="email" placeholder="E-Mail*" value={formData.email} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-slate-900/10 focus:border-slate-900 transition" />
-              <input name="steuerId" placeholder="Steuer ID Nummer" value={formData.steuerId} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-slate-900/10 focus:border-slate-900 transition" />
 
               <div className="pt-6">
                 <h2
@@ -140,8 +138,7 @@ const BewerbungPage = () => {
                   className="mt-1"
                 />
                 <span>
-                  Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß der
-                  Datenschutzerklärung zu.
+                  Ich habe die <a href="/datenschutz" className="underline hover:no-underline">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Bewerbungsdaten zur Bearbeitung dieser Anfrage zu.
                 </span>
               </div>
 

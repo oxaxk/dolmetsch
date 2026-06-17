@@ -119,6 +119,19 @@ export default function Datenschutz() {
             bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
             </p>
 
+            <h3 className="text-xl font-semibold mb-3 mt-6">Bewerbungsformular</h3>
+            <p className="mb-4">
+            Wenn Sie uns über das Bewerbungsformular kontaktieren, verarbeiten wir die von Ihnen angegebenen
+            Bewerbungs- und Kontaktdaten ausschließlich zur Prüfung und Bearbeitung Ihrer Bewerbung. Dazu können
+            Name, Kontaktdaten, Anschrift, Sprachkenntnisse, Ausbildung und freiwillige Angaben gehören. Steuerliche
+            Identifikationsnummern oder vergleichbare sensible Kennnummern werden über das Formular nicht erhoben.
+            </p>
+            <p className="mb-4">
+            Die Verarbeitung erfolgt nur, wenn Sie die Datenschutzhinweise im Formular bestätigen. Bewerbungsdaten werden
+            nur so lange aufbewahrt, wie es für die Bearbeitung der Bewerbung oder gesetzliche Nachweispflichten erforderlich
+            ist. Eine Weitergabe an Dritte erfolgt nicht ohne gesonderte Grundlage.
+            </p>
+
             <h2 className="text-2xl font-semibold mb-4 mt-8">5. Cookies</h2>
             <p className="mb-4">
             Auf dieser Website werden keine Cookies zu Analyse-, Marketing- oder Trackingzwecken eingesetzt.

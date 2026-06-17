@@ -30,10 +30,10 @@ export default function Impressum() {
             <p className="mb-4">
               Telefon:{' '}
               <a href="tel:+4915206746382" className="hover:underline">
-+49 (0) 152 06746382
+                +49 (0) 152 06746382
               </a>,{' '}
               <a href="tel:+4917643453830" className="hover:underline">
-+49 (0) 176 43453830
+                +49 (0) 176 43453830
               </a>
               <br />
               E-Mail:{' '}
